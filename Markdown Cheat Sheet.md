@@ -1,3 +1,6 @@
+
+==Note that this is Obsidian's syntax and not all markdown syntax works here==
+
 # Header 1
 ## Header 2
 ### Header 3
