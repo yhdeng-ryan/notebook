@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "661d241229da7b47",
+        "id": "246692a74bd68c3e",
         "type": "tabs",
         "children": [
           {
-            "id": "0d88202ac8c608ce",
+            "id": "b684ef44c7a25f84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C Plus Plus/Variables.md",
+                "file": "C Plus Plus/Input & Output.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variables"
+              "title": "Input & Output"
+            }
+          },
+          {
+            "id": "c91921c1d0b5ed00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C Plus Plus/Control Flow.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Control Flow"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5,
-    "collapsed": true
+    "width": 233.5
   },
   "right": {
     "id": "a83a771702b80d6e",
@@ -177,13 +191,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d88202ac8c608ce",
+  "active": "c91921c1d0b5ed00",
   "lastOpenFiles": [
-    "C Plus Plus/Input & Output.md",
     "C Plus Plus/Variables.md",
+    "C Plus Plus/Control Flow.md",
     "C Plus Plus/Preprocessor.md",
+    "C Plus Plus/Scope, Duration, and Linkage.md",
     "C Plus Plus/Introduction.md",
+    "C Plus Plus/Input & Output.md",
     "C Plus Plus/g++.md",
+    "C Plus Plus/Floating points.md",
+    "C Plus Plus/Bit Manipulation.md",
+    "Bit Manipulation.md",
     "Markdown Cheat Sheet.md",
     "C Plus Plus",
     "README.md",
