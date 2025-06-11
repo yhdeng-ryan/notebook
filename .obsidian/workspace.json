@@ -8,17 +8,45 @@
         "type": "tabs",
         "children": [
           {
+            "id": "e383ae6afb7eff68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C Plus Plus/Type Conversion, Aliases, and Deduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Type Conversion, Aliases, and Deduction"
+            }
+          },
+          {
+            "id": "a2eadc29fe1748b6",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "M-Power Notes.md",
+                "bFile": "M-Power Notes.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: M-Power Notes"
+            }
+          },
+          {
             "id": "b684ef44c7a25f84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C Plus Plus/Input & Output.md",
+                "file": "C Plus Plus/Error Detection and Handling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Input & Output"
+              "title": "Error Detection and Handling"
             }
           },
           {
@@ -27,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C Plus Plus/Control Flow.md",
+                "file": "C Plus Plus/Variables.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Control Flow"
+              "title": "Variables"
             }
           }
         ],
@@ -68,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "static_cast",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,14 +219,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c91921c1d0b5ed00",
+  "active": "a2eadc29fe1748b6",
   "lastOpenFiles": [
+    "M-Power Notes.md",
+    "C Plus Plus/Type Conversion, Aliases, and Deduction.md",
     "C Plus Plus/Variables.md",
+    "C Plus Plus/Error Detection and Handling.md",
     "C Plus Plus/Control Flow.md",
-    "C Plus Plus/Preprocessor.md",
-    "C Plus Plus/Scope, Duration, and Linkage.md",
-    "C Plus Plus/Introduction.md",
     "C Plus Plus/Input & Output.md",
+    "C Plus Plus/Scope, Duration, and Linkage.md",
+    "C Plus Plus/Preprocessor.md",
+    "C Plus Plus/Introduction.md",
     "C Plus Plus/g++.md",
     "C Plus Plus/Floating points.md",
     "C Plus Plus/Bit Manipulation.md",

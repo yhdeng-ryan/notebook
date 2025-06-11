@@ -53,15 +53,7 @@ The compiler warns about unused variables, but one can tell it to skip one with 
 
 ## Type conversion
 
-Use `static_cast<new_typoe>(expression)` for  explicit casting.
-```cpp
-void print(int x) { std::cout << x << std::endl; }
-
-int main() {
-	float y{3.14};
-	print(static_cast<int>(y));
-}
-```
+![[Type Conversion, Aliases, and Deduction#static_cast]]
 
 ## Constants
 
