@@ -1,3 +1,4 @@
+
 Use double quotes to include header files that you’ve written or are expected to be found in the current directory. Use angled brackets to include headers that come with your compiler, OS, or third-party libraries you’ve installed elsewhere on your system.
 
 Use the standard library header files without the .h extension. User-defined headers should still use a .h extension.
@@ -10,7 +11,7 @@ Order the includes in the following order:
 3. 3rd party library headers
 4. Standard library headers
 
-One should put the function definition in one of the .cpp files so that the header just contains a forward declaration.
+One should put the function definition in one of the .cpp files so that the header just contains a forward declaration. Exception: [[Scope, Duration, and Linkage#Method 3 `inline` (best)|Sharing global constants]].
 
 Modern compilers support auto header guards with:
 ```cpp

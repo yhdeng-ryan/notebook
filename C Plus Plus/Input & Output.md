@@ -1,10 +1,10 @@
 
 ## Numbers
 
-Convert `std::cout` to print numbers in certain format: `std::dec`, `std::oct`, and `std::hex`
-Convert `std::cout` to print bool as string: `std::boolalpha`
-Print numbers in binary: [[Bit Manipulation|std::bitset<#bits>{number}]] (temporary bitset)
-Set floating number precision: `std::setprecision()`
+- Convert `std::cout` to print numbers in certain format: `std::dec`, `std::oct`, and `std::hex`
+- Convert `std::cout` to print bool as string: `std::boolalpha`
+- Print numbers in binary: [[Bit Manipulation|std::bitset<#bits>{number}]] (temporary bitset)
+- Set floating number precision: `std::setprecision()`
 
 ## Strings
 

@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "246692a74bd68c3e",
+        "id": "f7ecb50d889607b0",
         "type": "tabs",
         "children": [
           {
-            "id": "e383ae6afb7eff68",
+            "id": "1004ffbfea90d494",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "M-Power Notes.md",
-                "bFile": "M-Power Notes.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "aFile": "C Plus Plus/Input & Output.md",
+                "bFile": "C Plus Plus/Input & Output.md",
+                "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: M-Power Notes"
+              "title": "Diff: Input & Output"
             }
           }
         ]
@@ -54,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "static_cast",
+                "query": "inline",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -177,25 +176,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e383ae6afb7eff68",
+  "active": "1004ffbfea90d494",
   "lastOpenFiles": [
+    "Markdown Cheat Sheet.md",
     "C Plus Plus/References and Pointers.md",
+    "C Plus Plus/Preprocessor.md",
+    "C Plus Plus/Scope, Duration, and Linkage.md",
     "C Plus Plus/Variables.md",
     "C Plus Plus/Constexpr functions.md",
-    "C Plus Plus/Type Conversion, Aliases, and Deduction.md",
+    "C Plus Plus/Introduction.md",
+    "C Plus Plus/Input & Output.md",
+    "C Plus Plus/g++.md",
     "C Plus Plus/Function Overloading and Function Templates.md",
-    "M-Power Notes.md",
+    "C Plus Plus/Floating points.md",
     "C Plus Plus/Error Detection and Handling.md",
     "C Plus Plus/Control Flow.md",
-    "C Plus Plus/Input & Output.md",
-    "C Plus Plus/Scope, Duration, and Linkage.md",
-    "C Plus Plus/Preprocessor.md",
-    "C Plus Plus/Introduction.md",
-    "C Plus Plus/g++.md",
-    "C Plus Plus/Floating points.md",
     "C Plus Plus/Bit Manipulation.md",
+    "C Plus Plus/Type Conversion, Aliases, and Deduction.md",
+    "M-Power Notes.md",
     "Bit Manipulation.md",
-    "Markdown Cheat Sheet.md",
     "C Plus Plus",
     "README.md",
     "Welcome.md",
