@@ -58,7 +58,7 @@ The compiler warns about unused variables, but one can tell it to skip one with 
 ## Constants
 
 - `const` means that the value of an object cannot be changed after initialization. The value of the initializer may be known at compile-time or runtime. The `const` object can be evaluated at runtime. const only works on integral variables. Any constant variable whose initializer is not a constant expression (making it a runtime constant) should be declared as `const`.
-- `constexpr` means that the object can be used in a constant expression. The value of the initializer must be known at compile-time. The `constexpr` object can be evaluated at runtime or compile-time. Any constant variable whose initializer is a constant expression should be declared as `constexpr`. `constexpr` can also be used on functions.
+- `constexpr` means that the object can be used in a constant expression. The value of the initializer must be known at compile-time. The `constexpr` object can be evaluated at runtime or compile-time. Any constant variable whose initializer is a constant expression should be declared as `constexpr`. `constexpr` can also be used on functions, more over [[Constexpr functions]].
 
 ## Strings
 

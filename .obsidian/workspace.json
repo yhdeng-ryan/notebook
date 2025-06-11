@@ -11,60 +11,18 @@
             "id": "e383ae6afb7eff68",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C Plus Plus/Type Conversion, Aliases, and Deduction.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Type Conversion, Aliases, and Deduction"
-            }
-          },
-          {
-            "id": "a2eadc29fe1748b6",
-            "type": "leaf",
-            "state": {
               "type": "split-diff-view",
               "state": {
                 "aFile": "M-Power Notes.md",
                 "bFile": "M-Power Notes.md",
-                "aRef": ""
+                "aRef": "HEAD",
+                "bRef": ""
               },
               "icon": "diff",
               "title": "Diff: M-Power Notes"
             }
-          },
-          {
-            "id": "b684ef44c7a25f84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C Plus Plus/Error Detection and Handling.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Error Detection and Handling"
-            }
-          },
-          {
-            "id": "c91921c1d0b5ed00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C Plus Plus/Variables.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Variables"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,11 +177,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a2eadc29fe1748b6",
+  "active": "e383ae6afb7eff68",
   "lastOpenFiles": [
-    "M-Power Notes.md",
-    "C Plus Plus/Type Conversion, Aliases, and Deduction.md",
+    "C Plus Plus/References and Pointers.md",
     "C Plus Plus/Variables.md",
+    "C Plus Plus/Constexpr functions.md",
+    "C Plus Plus/Type Conversion, Aliases, and Deduction.md",
+    "C Plus Plus/Function Overloading and Function Templates.md",
+    "M-Power Notes.md",
     "C Plus Plus/Error Detection and Handling.md",
     "C Plus Plus/Control Flow.md",
     "C Plus Plus/Input & Output.md",
