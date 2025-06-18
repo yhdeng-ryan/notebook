@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f7ecb50d889607b0",
+        "id": "79e24b34d5785359",
         "type": "tabs",
         "children": [
           {
-            "id": "1004ffbfea90d494",
+            "id": "3fda7a40d71edf1c",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "C Plus Plus/Input & Output.md",
-                "bFile": "C Plus Plus/Input & Output.md",
+                "aFile": "C Plus Plus/References and Pointers.md",
+                "bFile": "C Plus Plus/References and Pointers.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Input & Output"
+              "title": "Diff: References and Pointers"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "inline",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -176,10 +176,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1004ffbfea90d494",
+  "active": "3fda7a40d71edf1c",
   "lastOpenFiles": [
-    "Markdown Cheat Sheet.md",
+    "C Plus Plus/Enums and Structs.md",
+    "C Plus Plus/Control Flow.md",
+    "C Plus Plus/Bit Manipulation.md",
     "C Plus Plus/References and Pointers.md",
+    "Markdown Cheat Sheet.md",
     "C Plus Plus/Preprocessor.md",
     "C Plus Plus/Scope, Duration, and Linkage.md",
     "C Plus Plus/Variables.md",
@@ -190,8 +193,6 @@
     "C Plus Plus/Function Overloading and Function Templates.md",
     "C Plus Plus/Floating points.md",
     "C Plus Plus/Error Detection and Handling.md",
-    "C Plus Plus/Control Flow.md",
-    "C Plus Plus/Bit Manipulation.md",
     "C Plus Plus/Type Conversion, Aliases, and Deduction.md",
     "M-Power Notes.md",
     "Bit Manipulation.md",
