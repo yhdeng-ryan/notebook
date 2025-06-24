@@ -1,3 +1,4 @@
+#error
 
 Use `std::cout` for normal user-facing error messages; Use `std::cerr` or a logfile for status and diagnostic information.
 

@@ -1,5 +1,4 @@
-
-#compiler
+#compiler #linker
 
 **g++** is the command-line interface for the **GNU C++ Compiler**, part of the larger **GNU Compiler Collection (GCC)**.
 

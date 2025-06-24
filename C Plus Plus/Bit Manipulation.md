@@ -1,3 +1,4 @@
+#bit #mask
 
 `std::bitset` is a useful tool defined in `<bitset>`.
 - `std::bitset<#bits> var {init_val}`: create a `bitset`

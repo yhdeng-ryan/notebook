@@ -1,5 +1,5 @@
-
 ## Constexpr if
+#constexpr
 
 For C++17, the conditional of a constexpr-if-statement will be evaluated at compile-time.
 ```cpp
@@ -80,6 +80,7 @@ for (int x{ 0 }, y{ 9 }; x < 10; ++x, --y)
 ```
 
 ## Halts
+#error 
 
 A **halt** is a flow control statement that terminates the program:
 ```cpp
@@ -110,6 +111,7 @@ int main()
 In multi-threaded programs, consider `std::quick_exit()` and `std::at_quick_exit()`. The `std::abort()` function causes your program to terminate abnormally.
 
 ## Random number
+#random
 
 Mersenne Twister is best option in terms of performance and quality:
 ```cpp

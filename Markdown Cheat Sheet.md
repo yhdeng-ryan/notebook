@@ -54,11 +54,10 @@ www.google.com
 ![[README]]
 
 ## Tables
-
-Header 1 | Header 2
-- | -
-a | b
-c | d
+| Header1 | Header2 |
+| ------- | ------- |
+| a       | b       |
+| c       | d       |
 
 ## Quotes
 > a random quote

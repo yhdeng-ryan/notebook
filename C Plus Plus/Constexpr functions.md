@@ -1,3 +1,4 @@
+#constexpr
 
 ```cpp
 #include <iostream>

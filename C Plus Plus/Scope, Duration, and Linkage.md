@@ -1,3 +1,4 @@
+#linker 
 
 ## Scope operator
 
@@ -135,6 +136,7 @@ Disadvantages:
 - Variables not usable in constant expressions outside of the file in which they are defined.
 
 ### Method #3 `inline` (best)
+
 `constants.h:`
 ```cpp
 #ifndef CONSTANTS_H

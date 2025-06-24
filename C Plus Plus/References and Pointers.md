@@ -1,4 +1,4 @@
-
+#reference #pointer 
 ## Lvalue and rvalue expressions
 
 Lvalue expressions evaluate to an identifiable object. Rvalue expressions evaluate to a value. An lvalue will implicitly convert to an rvalue. This means an lvalue can be used anywhere an rvalue is expected. An rvalue, on the other hand, will not implicitly convert to an lvalue.
@@ -52,6 +52,7 @@ std::cout << x; // 0
 std::cout << z; // 1
 ```
 
+#constexpr 
 Constexpr lvalue reference can only be bound to static variable. When defining a constexpr reference to a const variable, we need to apply both `constexpr` (which applies to the reference) and `const` (which applies to the type being referenced).
 ```cpp
 int g_x { 5 };

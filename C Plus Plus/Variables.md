@@ -52,15 +52,18 @@ The compiler warns about unused variables, but one can tell it to skip one with 
 ```
 
 ## Type conversion
+#cast
 
 ![[Type Conversion, Aliases, and Deduction#static_cast]]
 
 ## Constants
+#const #constexpr 
 
 - `const` means that the value of an object cannot be changed after initialization. The value of the initializer may be known at compile-time or runtime. The `const` object can be evaluated at runtime. const only works on integral variables. Any constant variable whose initializer is not a constant expression (making it a runtime constant) should be declared as `const`.
 - `constexpr` means that the object can be used in a constant expression. The value of the initializer must be known at compile-time. The `constexpr` object can be evaluated at runtime or compile-time. Any constant variable whose initializer is a constant expression should be declared as `constexpr`. `constexpr` can also be used on functions, more over [[Constexpr functions]].
 
 ## Strings
+#string
 
 `std::string` automatically change its length
 
@@ -70,9 +73,11 @@ Do not pass `std::string` by value; use a `std::string_view` parameter inste
 
 `std::string_view` provides a read-only value of a string. One can assign a new `std::string` for `std::string_view` to point while the old one stays. It is a pointer and a size.
 
-`"foo"` is the C-style string literal that includes `\0` in the end; `"bar"s` is the `std::string` literal; `"bar"sv` is the `"std::string_view` literal
+`"foo"` is the C-style string literal that includes `\0` in the end; `"bar"s` is the `std::string` literal; `"bar"sv` is the `"std::string_view` literal. Need `using namespace std::string_literals;`.
 
 ### Function parameters
+#string #reference #const 
+
 - Use `std::string` when:
 	- The function needs to modify the string passed in as an argument without affecting the caller. This is rare.
 	- You are using language standard earlier than C++14.
@@ -87,6 +92,8 @@ Do not pass `std::string` by value; use a `std::string_view` parameter inste
 	- You are calling other functions that require a `std::string&`, or non-const C-style string.
 
 ### Return types
+#string #reference #const 
+
 - Use `std::string` when:
 	- The return value is a `std::string` local variable or function parameter.
 	- The return value is a function call or operator that returns a `std::string` by value.

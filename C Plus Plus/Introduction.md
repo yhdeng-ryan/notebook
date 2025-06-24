@@ -1,4 +1,3 @@
-
 #compiler #linker
 
 - `Compiler`: checks the source code for errors and translates them into `object file` per `cpp` file.
