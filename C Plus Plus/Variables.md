@@ -75,6 +75,16 @@ Do not pass `std::string` by value; use a `std::string_view` parameter inste
 
 `"foo"` is the C-style string literal that includes `\0` in the end; `"bar"s` is the `std::string` literal; `"bar"sv` is the `"std::string_view` literal. Need `using namespace std::string_literals;`.
 
+### Strings for variables
+
+- Use a `std::string` variable when:
+	- You need a string that you can modify.
+	- You need to store user-inputted text.
+	- You need to store the return value of a function that returns a `std::string`.
+- Use a `std::string_view` variable when:
+	- You need read-only access to part or all of a string that already exists elsewhere and will not be modified or destroyed before use of the `std::string_view` is complete.
+	- You need a symbolic constant for a C-style string.
+	- You need to continue viewing the return value of a function that returns a C-style string or a non-dangling `std::string_view`.
 ### Function parameters
 #string #reference #const 
 

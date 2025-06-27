@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b45d4870e60ac15e",
+        "id": "1692c95c99615147",
         "type": "tabs",
         "children": [
           {
-            "id": "c5763bfb1e4aa379",
+            "id": "a407a37e99a589dd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "C Plus Plus/Variables.md",
-                "mode": "source",
-                "source": false
+                "aFile": "C Plus Plus/Variables.md",
+                "bFile": "C Plus Plus/Variables.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Variables"
+              "icon": "diff",
+              "title": "Diff: Variables"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -177,11 +176,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "68b917b7536bb518",
+  "active": "a407a37e99a589dd",
   "lastOpenFiles": [
+    "abort.md",
+    "C Plus Plus/Variables.md",
     "C Plus Plus/Type Conversion, Aliases, and Deduction.md",
     "C Plus Plus/References and Pointers.md",
-    "C Plus Plus/Variables.md",
     "C Plus Plus/Input & Output.md",
     "C Plus Plus/g++.md",
     "C Plus Plus/Enums and Structs.md",
@@ -205,7 +205,6 @@
     "create a link.md",
     "www.google.com.md",
     "Markdown Cheat Sheet 1.md",
-    "Untitled.canvas",
-    "2025-06-03.md"
+    "Untitled.canvas"
   ]
 }
